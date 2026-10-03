@@ -18,7 +18,7 @@ sourcemap.add(file, function (err, updatedFile) {
 });
 
 // The 2nd argument can be given as a path string
-sourcemap.write(file, './maps', function (err, updatedFile, sourcemapFile) {
+sourcemap.write(file, "./maps", function (err, updatedFile, sourcemapFile) {
   // sourcemapFile will be a Vinyl file to be written to some location
   // updatedFile will have the .contents property updated with a sourceMappingURL that resolves to sourcemapFile
 });

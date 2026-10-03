@@ -296,7 +296,7 @@ describe("add (buffer contents)", function () {
       expect(outFile.sourceMap).toBeTruthy();
       expect(outFile.sourceMap.sourcesContent).toEqual([
         content,
-        "console.log('test1');\n",
+        'console.log("test1");\n',
       ]);
       done(err);
     });
@@ -375,7 +375,7 @@ describe("add (buffer contents)", function () {
       expect(outFile.sourceMap.sourceRoot).toEqual("test");
       expect(outFile.sourceMap.sourcesContent).toEqual([
         content,
-        "console.log('test1');\n",
+        'console.log("test1");\n',
       ]);
       done(err);
     });
@@ -393,8 +393,8 @@ describe("add (buffer contents)", function () {
         path.join(__dirname, "assets"),
       );
       expect(outFile.sourceMap.sourcesContent).toEqual([
-        "console.log('test1');\n",
-        "console.log('test2');\n",
+        'console.log("test1");\n',
+        'console.log("test2");\n',
       ]);
       done(err);
     });
@@ -729,7 +729,7 @@ function suite(moduleName) {
         expect(outFile.sourceMap).toBeTruthy();
         expect(outFile.sourceMap.sourcesContent).toEqual([
           content,
-          "console.log('test1');\n",
+          'console.log("test1");\n',
         ]);
         done(err);
       });
@@ -813,7 +813,7 @@ function suite(moduleName) {
         expect(outFile.sourceMap.sourceRoot).toEqual("test");
         expect(outFile.sourceMap.sourcesContent).toEqual([
           content,
-          "console.log('test1');\n",
+          'console.log("test1");\n',
         ]);
         done(err);
       });
@@ -831,8 +831,8 @@ function suite(moduleName) {
           path.join(__dirname, "assets"),
         );
         expect(outFile.sourceMap.sourcesContent).toEqual([
-          "console.log('test1');\n",
-          "console.log('test2');\n",
+          'console.log("test1");\n',
+          'console.log("test2");\n',
         ]);
         done(err);
       });

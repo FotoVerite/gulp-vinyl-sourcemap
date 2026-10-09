@@ -80,4 +80,6 @@ MIT
 
 [coveralls-url]: https://coveralls.io/r/gulpjs/vinyl-sourcemap
 [coveralls-image]: https://img.shields.io/coveralls/gulpjs/vinyl-sourcemap/main.svg?style=flat-square
+
+[vinyl]: https://github.com/gulpjs/vinyl
 <!-- prettier-ignore-end -->
